@@ -1,0 +1,27 @@
+22:03:03: Backup started on Monday August 26, 2013.
+22:03:03: Your time limit is 30 seconds and your memory limit is 64M
+22:03:22: Creating SQL backup of your WordPress core.
+22:03:22: Creating SQL backup of your WordPress plugins.
+22:03:28: Approximately 2% complete.
+22:03:34: Approximately 5% complete.
+Uploaded Files:[{"file":"index.html","mtime":1377567017},{"file":"timthumb_cacheLastCleanTime.touch","mtime":1377524939}]
+22:03:40: Approximately 6% complete.
+Uploaded Files:[{"file":"timthumb_int_fa63e9ad6f571b9f8e62c822ac0a4036.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_df1ed8f39724e6168bcdf79ef1ed659f.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_dc3759ad99de04f7141c32ce8062a3cc.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_938b6b463ee68c44544056faaa04dc52.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_5611addd3d41c402a7f3a5c00942d003.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_1f71e20b00ffcece63ba6ea3bf62c4d8.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_2e29d2772947074069fa641cc0661dcd.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_c5a9d284caa6f342e04ebdba4c7980bd.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_98ea396d36e743521a58fb1763d4c9ee.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_caf8200a7707963901f05360925afe58.timthumb.txt","mtime":1377524940}]
+22:03:46: Approximately 6% complete.
+Uploaded Files:[{"file":"timthumb_int_cd72fa0bccde453e3149b3dc21a8f591.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_b83e9a079fa864114acf3638b0119572.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_e31a7aa4b1b85f51478f61171747ee66.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_c84c364dfdb0549999a6fd0c03fae2b2.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_e193b38a16090ce1b14231f24549b080.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_feeb7a635b382de3e4c405fb39a6b3dc.timthumb.txt","mtime":1377524940},{"file":"timthumb_int_3fed5e3b9758c0a17ed71fe3fa62b8d1.timthumb.txt","mtime":1377526005},{"file":"timthumb_int_3affd5302915b0b193eee43df01501c4.timthumb.txt","mtime":1377526005},{"file":"timthumb_int_457432a78f6a6459a2ec430f23709451.timthumb.txt","mtime":1377526006},{"file":"timthumb_int_894d8107bca1d7aed7443a245baf0159.timthumb.txt","mtime":1377526006}]
+22:03:52: Approximately 9% complete.
+22:03:58: Approximately 14% complete.
+22:04:04: Approximately 19% complete.
+22:04:10: Approximately 22% complete.
+22:04:16: Approximately 28% complete.
+22:04:27: Approximately 37% complete.
+22:04:33: Approximately 50% complete.
+22:04:39: Approximately 56% complete.
+22:04:45: Approximately 57% complete.
+22:04:51: Approximately 58% complete.
+22:04:57: Approximately 59% complete.
+22:05:03: Approximately 61% complete.
+22:05:09: Approximately 66% complete.
+22:05:14: Backup complete.
+22:05:14: A total of 2580 files were processed.
+22:05:14: A total of 4MB of memory was used to complete this backup.

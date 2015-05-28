@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+	font-family: TrixieWeb-Light;
+	src: url("../fonts/TrixieWeb-Light.eot");
+	src: url("../fonts/TrixieWeb-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/TrixieWeb-Light.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: TrixieWeb-Heavy;
+	src: url("../fonts/TTrixieWeb-Heavy.eot");
+	src: url("../fonts/TrixieWeb-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/TrixieWeb-Heavy.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GillSans';
+	src: url('../fonts/gillsans.eot');
+	src: url('../fonts/gillsans.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/gillsans.woff') format('woff'),
+		url('../fonts/gillsans.ttf') format('truetype'),
+		url('../fonts/gillsans.svg#gillsans') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GillSansBold';
+	src: url('../fonts/GillSans-Bold.eot');
+	src: url('../fonts/GillSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GillSans-Bold.woff') format('woff'),
+		url('../fonts/GillSans-Bold.ttf') format('truetype'),
+		url('../fonts/GillSans-Bold.svg#gillsans') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Perpetua';
+	src: url('../fonts/p-regular.eot');
+	src: url('../fonts/p-regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/p-regular.woff') format('woff'),
+		url('../fonts/p-regular.ttf') format('truetype'),
+		url('../fonts/p-regular.svg#gillsans') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PerpetuaBold';
+	src: url('../fonts/p-bold.eot');
+	src: url('../fonts/p-bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/p-bold.woff') format('woff'),
+		url('../fonts/p-bold.ttf') format('truetype'),
+		url('../fonts/p-bold.svg#gillsans') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PerpetuaItalic';
+	src: url('../fonts/p-italic.eot');
+	src: url('../fonts/p-italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/p-italic.woff') format('woff'),
+		url('../fonts/p-italic.ttf') format('truetype'),
+		url('../fonts/p-italic.svg#gillsans') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-position: center 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+img { max-width: 100%; }
+.feature-text {
+   font-weight:bold;
+}
+.blue {
+    color:#006196; font-family: 'PerpetuaBold'
+}
+
+.nav { margin-left:0px; padding-left:0px; width:100%; }
+.nav li { padding:1px 0px 1px 20px; border:none; }
+.nav li.current-menu-item { background:none; padding-top:2px; padding-bottom:0px; }
+.nav li.current-menu-item a { color:#006196; font-family:GillSansBold, Arial, sans-serif; }
+.nav li a { font-family:GillSans, Arial, sans-serif; font-size:16px; line-height:22px; color:#fff; text-shadow:none; 
+	text-transform: capitalize; text-shadow: none; background: none; }
+.nav li a:hover { color:#006196; }
+.sidebar_content h1.page_header { font-family:PerpetuaBold, sans-serif; color:#006196; font-weight:normal; margin:0px 0px 20px 0px; 
+	line-height:32px; font-size:32px; text-shadow:none;  }
+#homepage_wrapper { 
+    background-image:url(../images/body_bg2.png); border-right-color:#006196; border-right:none; 
+    left:195px; max-width:590px; padding: 0 20px; height:500px; padding-bottom:35px;
+}
+#homepage_wrapper .scroll-bar {
+    width: 10px; border-left:1px #B03240 solid; border-right:1px #B03240 solid; 
+}
+#homepage_wrapper .scroll-bar .thumb {
+    background-color: #B03240;
+}
+#homepage_wrapper #page_content_wrapper { 
+    font-family:Perpetua, sans-serif; font-size:18px; line-height:21px; text-shadow:none; 
+    width:100%;
+}
+#homepage_wrapper .inner { margin-top:45px; }
+#homepage_wrapper p { margin: 5px 0 20px 0; }
+#homepage_wrapper h3 {
+    font-size: 22px; color: #006196; font-family: 'PerpetuaBold';
+    margin: 2em 0 1em 0;
+}
+.sidebar_content { width: 100%; }
+.sidebar_content a { color:#006196; padding-bottom:2px; border-bottom:1px #999 dotted; }
+#page_content_wrapper .inner { margin:0px; }
+#menu_wrapper { 
+    background-image:url(../images/menu_bg2.png); 
+    width:195px; min-height:650px; border:none; 
+}
+.logo_wrapper { 
+    margin: 45px 0px 0px 0px; width: 100%; text-align: center; 
+}
+.logo_wrapper img {
+    max-height: 250px;
+}
+#expand_button { display:none; }
+.menu-main-menu-container { position: absolute; bottom: 55px; width: 100%; }
+#menu_footer { position:absolute; bottom:10px; margin-left:20px; }
+
+
+/* content sections styles */
+
+
+
+/* restaurant menu styles 
+.nav li.menu-item-40, .nav li.menu-item-48, .nav li.menu-item-51, .nav li.menu-item-54,
+	.nav li.menu-item-40.current-menu-item, .nav li.menu-item-48.current-menu-item, .nav li.menu-item-51.current-menu-item, .nav li.menu-item-54.current-menu-item
+.nav li.menu-item-40.current-menu-item a, .nav li.menu-item-48.current-menu-item a, .nav li.menu-item-51.current-menu-item a, .nav li.menu-item-54.current-menu-item a 
+
+*/
+.nav li.menu-item-object-menus { 
+    background-color: rgba(0, 0, 0, .2);
+}
+.nav li.menu-item-object-menus.current-menu-item a { color:#006196; }
+.nav li.menu-item-69 { padding-bottom:4px; margin-bottom:4px; }
+.nav li.menu-item-65 { padding-top:4px; margin-top:4px; }
+/*
+.single-menus .nav li.menu-item-object-menus { background-image:none; background-color:#ac6570;  }
+*/
+.single-menus .nav li.menu-item-object-menus.current-menu-item a { color:#fff; }
+.menu-section-title { 
+    font-size: 22px; color: #006196; font-family: 'PerpetuaBold', sans-serif;
+    margin: 2em 0 1em 0;
+}
+.menu-item-name { font-family:PerpetuaBold, sans-serif;  color:#000; }
+.menu-item-price { 
+    font-family:PerpetuaBold, sans-serif;  
+    display: inline-block; margin-left: 20px;
+}
+.menu-item-desc {
+   font-family: 'PerpetuaItalic', sans-serif;
+}
+
+#fancybox-wrap { padding:0px !important; border:12px #a7313c solid; }
+#fancybox-close { top:5px !important; right:0px !important; }
+
+/* opentable widget */
+#OT_form, #OT_form h1, #OT_form h2 { font-family:Verdana, Geneva, sans-serif; margin:0px; }
+#OT_form ul { margin:0px; }
+
+/* footer contact info */
+#contact-info { width:200px; position:fixed; bottom:0px; right:0px; background-image:url(../images/menu_bg2.png);
+	font-family:GillSans, Arial, sans-serif; font-size:16px; line-height:22px; color:#fff; text-shadow:none; z-index:2;   }
+#contact-info #address { padding:10px; background-image:url(../images/menu_bg3.png); }
+#contact-info #hours { padding:10px;  }
+#contact-info #hours #hours-detail { margin-bottom: 7px; }
+
+
+@media all and (max-width: 780px ) {
+    
+}
