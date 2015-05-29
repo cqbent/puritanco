@@ -287,7 +287,10 @@ input[type=submit], input[type=button], a.button {
         
         <script>
         jQuery(document).ready(function() {
-            jQuery("#homepage_wrapper").customScrollbar();
+            var w_height = jQuery(window).height();
+            jQuery("#homepage_wrapper .sidebar_content").css('height',w_height+'px');
+            jQuery("#homepage_wrapper .sidebar_content").customScrollbar();
+            console.log(w_height);
         });
         </script>
 

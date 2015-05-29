@@ -101,7 +101,8 @@ img { max-width: 100%; }
 	line-height:32px; font-size:32px; text-shadow:none;  }
 #homepage_wrapper { 
     background-image:url(../images/body_bg2.png); border-right-color:#006196; border-right:none; 
-    left:195px; max-width:590px; padding: 0 20px; height:500px; padding-bottom:35px;
+    left:195px; max-width:590px; padding: 0; padding-bottom:35px;
+    width: 100%;
 }
 #homepage_wrapper .scroll-bar {
     width: 10px; border-left:1px #B03240 solid; border-right:1px #B03240 solid; 
@@ -113,15 +114,24 @@ img { max-width: 100%; }
     font-family:Perpetua, sans-serif; font-size:18px; line-height:21px; text-shadow:none; 
     width:100%;
 }
-#homepage_wrapper .inner { margin-top:45px; }
+#homepage_wrapper .inner { margin: 0; }
 #homepage_wrapper p { margin: 5px 0 20px 0; }
 #homepage_wrapper h3 {
     font-size: 22px; color: #006196; font-family: 'PerpetuaBold';
     margin: 2em 0 1em 0;
 }
-.sidebar_content { width: 100%; }
+.sidebar_content { 
+    width: 100%; height: 500px; padding: 0 20px; position:absolute; box-sizing: border-box; 
+}
+.sidebar_content h1.page_header {
+    padding-top:45px;
+}
+.sidebar_content img {
+    box-sizing: border-box;
+}
 .sidebar_content a { color:#006196; padding-bottom:2px; border-bottom:1px #999 dotted; }
 #page_content_wrapper .inner { margin:0px; }
+
 #menu_wrapper { 
     background-image:url(../images/menu_bg2.png); 
     width:195px; min-height:650px; border:none; 
