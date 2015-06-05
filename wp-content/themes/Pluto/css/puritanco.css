@@ -100,8 +100,8 @@ img { max-width: 100%; }
 .sidebar_content h1.page_header { font-family:PerpetuaBold, sans-serif; color:#006196; font-weight:normal; margin:0px 0px 20px 0px; 
 	line-height:32px; font-size:32px; text-shadow:none;  }
 #homepage_wrapper { 
-    background-image:url(../images/body_bg2.png); border-right-color:#006196; border-right:none; 
-    left:195px; max-width:590px; padding: 0; padding-bottom:35px;
+    background: rgba(245,245,245,.95); border-right-color:#006196; border-right:none; 
+    left:195px; max-width:650px; padding: 0; padding-bottom:35px;
     width: 100%;
 }
 #homepage_wrapper .scroll-bar {
